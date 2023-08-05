@@ -1,6 +1,9 @@
 -- Said Kadrioski <said@kadrioski.de>
 
-names = ["Rajesh", "Howard", "Sheldon", "Sheldon", "Leonhard", "Penny", "Penny"]
+names = ["Sheldon", "Leonard", "Penny", "Rajesh", "Howard"]
+
+-- Solution works with double entries as well.
+-- names = ["Rajesh", "Howard", "Sheldon", "Sheldon", "Leonhard", "Penny", "Penny"]
 labeledNames = map (, 1) names
 
 -- The Problem at hand.
