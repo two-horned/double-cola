@@ -25,7 +25,7 @@ getColaa n l = l !! formi n (length l)
 --
 -- This is my important formula
 formi :: Int -> Int -> Int
-formi n m = mod d2 m 
+formi n m = d2 - m 
   where g = n+m
         d0 = div g m
         d1 = floor $ logBase 2 (fromIntegral d0)

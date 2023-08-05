@@ -23,7 +23,7 @@ Let $m := length_{startList}$.
 
 Let $n := iterations$.
 
-list-index $= \frac{n+m}{2^{\log_2 \lfloor (n+m) \div m \rfloor}} \mod m$
+list-index $= \frac{n+m}{2^{\log_2 \lfloor (n+m) \div m \rfloor}} - m$
 
 ### How do we derive to my formula?
 
@@ -49,6 +49,8 @@ divide it and apply the modulo operator.
 We can find the next best value, by dividing our total list length
 by our original length. That way we get the average "gaps". Now we
 calculate it's floor-logarithm and that's the log of the number we looked for.
+
+Since the last modulo operation is always a value between m and 2m, we can just substract m.
 
 # References
 https://codeforces.com/problemset/problem/82/A
