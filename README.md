@@ -5,14 +5,14 @@ Due to copyright reasons I will provide the link of the puzzle in the [reference
 As far as I am concerned my solution is the first of it's kind, that has O(1) runtime,
 due to me using my mathematical formula to determine each exact position with one calculation.
 
-# Formula
+## Formula
 Let $m := length_{startList}$.
 
 Let $n := iterations$.
 
 list-index $= \frac{n+m}{2^{\log_2 \lfloor (n+m) \div m \rfloor}} \mod m$
 
-How do we derive to my formula?
+### How do we derive to my formula?
 
 Let's differentiate different entries solely, if the point to another original value from our list at the beginning.
 That means if we had two entries deriving from one, they'd be equivalent. This is different to grouping names together.
