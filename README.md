@@ -1,6 +1,19 @@
 # Description
 Due to copyright reasons I will provide the link of the puzzle in the [references section](#references).
 
+# Run the program
+This program should be run with [ghci](https://downloads.haskell.org/ghc/latest/docs/users_guide/ghci.html).
+
+If you're on a Unix-like just run
+```
+$ ghci solution.hs
+ghci> getColaa arg1 arg2
+```
+
+The parameter `arg1` should be an integer value, `arg2` can be every list of strings,
+you want to apply the problem on. I have predefined `names` as the list mentioned above,
+so you can use that as `arg2` value.
+
 # Solution
 As far as I am concerned my solution is the first of it's kind, that has O(1) runtime,
 due to me using my mathematical formula to determine each exact position with one calculation.
