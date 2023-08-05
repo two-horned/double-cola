@@ -10,7 +10,7 @@ Let $m := list-length$.
 
 Let $n := iterations$.
 
-list-index = $frac{n+m}{2^{\log_2 \lfloor (n+m) \div m \rfloor}} \mod m$
+list-index $= \frac{n+m}{2^{\log_2 \lfloor (n+m) \div m \rfloor}} \mod m$
 
 How do we derive to my formula?
 
