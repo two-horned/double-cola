@@ -6,7 +6,7 @@ As far as I am concerned my solution is the first of it's kind, that has O(1) ru
 due to me using my mathematical formula to determine each exact position with one calculation.
 
 # Formula
-Let $m := list-length$.
+Let $m := length_{startList}$.
 
 Let $n := iterations$.
 
