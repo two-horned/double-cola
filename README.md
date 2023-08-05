@@ -1,5 +1,5 @@
 # Description
-Due to copyright reasons I will provide the link of the puzzle in the [references section](#References).
+Due to copyright reasons I will provide the link of the puzzle in the [references section](#references).
 
 # Solution
 As far as I am concerned my solution is the first of it's kind, that has O(1) runtime,
@@ -7,8 +7,10 @@ due to me using my mathematical formula to determine each exact position with on
 
 # Formula
 Let $m := list-length$.
+
 Let $n := iterations$.
-$list-index = frac{n+m}{2^{\log_2 \lfloor (n+m) \div m \rfloor}} \mod m$
+
+list-index = $frac{n+m}{2^{\log_2 \lfloor (n+m) \div m \rfloor}} \mod m$
 
 How do we derive to my formula?
 
